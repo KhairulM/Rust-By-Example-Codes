@@ -13,6 +13,11 @@ struct Unit;
 // A tuple struct
 struct Pair(i32, f32);
 
+// Pair function, will cause compile error if uncommented
+// fn Pair(first: i32, second: i32) {
+//     println!("first: {}, second: {}", first, second);
+// }
+
 // A struct with two fields
 struct Point {
     x: f32,
